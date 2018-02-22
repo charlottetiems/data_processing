@@ -1,0 +1,44 @@
+/*  Charlotte Tiems 
+** 10774971
+**
+** Data processing
+** Average monthly temperature in the year 2015
+*/
+
+
+
+title, h2 {
+	font-family: times;
+	text-align: center; 
+}
+
+p, article { 
+	font-family: comic sans;
+	text-align: center; 
+	font-size: 80%;
+}
+
+
+.bar {
+  fill: blue;
+}
+
+.bar:hover {
+  fill: turquoise;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 10);
+    color: #fff;
+    border-radius: 1px;
+}
