@@ -1,0 +1,21 @@
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+
+
+article, footer {
+   position:absolute;
+   text-align: center;
+   bottom:-300;
+   width:100%;
+   height:60px;   
+}
