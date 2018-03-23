@@ -1,0 +1,51 @@
+<!--
+Charlotte Tiems 10774971
+Linked view
+Shows the world Population in a map, and a scatterplot of the Average life expectancy and the happy life years 
+*/
+
+-->
+
+<!doctype html>
+<html>
+  	<head>
+    	<title>Linked view</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="Styling/linkedviews.css">
+
+         <!-- Custom JavaScript -->
+        <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="https://d3js.org/queue.v1.min.js"></script>  
+        <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="Scripts/bootstrap.js"></script>
+
+        <!-- The script below provides map functionality -->
+        <script src="Scripts/datamaps.world.min.js"></script>   
+        <script src="Scripts/linkedviews.js"></script>
+    </head>
+  	<body>
+
+      <!-- Add HTML files for navigation balk  -->
+      <div class="topnav">
+        <a class="active" href="linkedviews.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a class="active" href="storytelling.html">Storytelling</a>
+        <a class="active" href="design.html">Design</a>
+      </div>
+
+      <!-- Add container for map -->
+      <div class="jumbotron"> 
+        <h1> Happy Planet Life index </h1></div>
+      <div id="container" style="position: relative; width: 900px; height: 560px;"></div>
+
+      <!-- Add legenda for HPI -->
+      <div class="well">
+        <h3>    Happy planet index score </h3>
+         <div class="container">
+          <img style="float:left" src="legenda.png" alt="Chania" width="600" height="40"> 
+        </div>
+      </div>
+  	</body>
+</html>
